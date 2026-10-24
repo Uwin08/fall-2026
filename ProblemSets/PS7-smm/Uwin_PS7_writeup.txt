@@ -1,0 +1,18 @@
+PS7 | Uwin Ariyarathna | Division of Finance
+Q1: Minimize squared OLS residuals with the identity weighting matrix.
+The numerical GMM solution matches the matrix least-squares estimator.
+Q2: MLE maximizes log likelihood; stacked N*J GMM minimizes
+the sum of squared individual choice-indicator-minus-probability moments.
+GMM criterion at MLE start: 1699.8204201776289
+GMM criterion at random start: 1699.8208094475478
+MLE converged: true
+GMM convergence flags: true, true
+The GMM minimization criterion need not be globally convex.
+Variation by initial values alone is not a proof of nonconvexity.
+Q3: Simulated choices are produced by inverse CDF and Gumbel shocks.
+Both fitted coefficients approximate the assigned true parameters.
+Q5: SMM minimizes squared observed-minus-average-simulated
+choice indicators using fixed simulation draws.
+Reported SMM uses n=1200 and D=100; numerical result depends on simulation size.
+SMM converged: false
+SMM objective: 909.5278000000012

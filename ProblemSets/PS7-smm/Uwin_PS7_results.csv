@@ -1,0 +1,8 @@
+quantity,value
+Q1 max absolute OLS-GMM difference,6.47E-11
+Q2 GMM (MLE start) objective,1699.82042
+Q2 GMM (random start) objective,1699.820809
+Q2 largest coefficient difference,0.322470821
+Q3 inverse-CDF max recovery error,0.065947095
+Q3 Gumbel max recovery error,0.089024117
+Q5 SMM objective (if estimated),909.5278
