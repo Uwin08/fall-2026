@@ -67,7 +67,7 @@ This is a professional coding practice that makes function signatures manageable
 """
 function load_dynamic_data()
     # Load data
-    url = "https://raw.githubusercontent.com/OU-PhD-Econometrics/fall-2024/master/ProblemSets/PS5-ddc/busdata.csv"
+    url = "https://raw.githubusercontent.com/OU-PhD-Econometrics/fall-2026/master/ProblemSets/PS5-ddc/busdata.csv"
     df = CSV.read(HTTP.get(url).body, DataFrame)
     
     # Extract matrices and vectors
@@ -272,7 +272,7 @@ TODO: Implement the likelihood computation using observed states.
     #         ev_diff = # TODO: (d.xtran[row1,:] .- d.xtran[row0,:])⋅FV[row0:row0+d.xbin-1, d.B[i]+1, t+1]
     #         
     #         # Total conditional value difference
-    #         v_diff = # TODO: flow_diff + d.β * ev_diff
+    #         v_diff = # TODO: flow_diff + ev_diff
     #         
     #         # Compute choice probabilities using logit formula
     #         # P(Y=1) = exp(v_diff) / (1 + exp(v_diff))
