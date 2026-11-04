@@ -1,0 +1,14 @@
+ECON 6343 - PS8 - Uwin Ariyarathna
+Common complete-case sample: N = 2438
+Q2: Max absolute ASVAB pairwise correlation = 0.7992716055916466.
+Q3: Correlated ASVAB variables may lead to multicollinearity, which inflates
+coefficient uncertainty and makes individual estimates sensitive to small changes.
+Q4: PCA summarizes the maximum observed common variance in a single component.
+Q5: Factor analysis models shared variation separately from unique measurement variation.
+Q4-Q5: The signs of principal component and factor scores are arbitrary.
+Q6: Joint MLE integrates N(0,1) latent ability using Gauss-Legendre quadrature.
+Q6: Measurement equation covariates are intercept, black, hispanic, female.
+Q6: Wage equation adds schoolt, gradHS, and grad4yr.
+Q6: Error SDs are estimated as exp(log_sigma) for positivity.
+Q6: Converged = true; log likelihood = -17531.513762342744.
+Q6: Check convergence and standard errors before substantive interpretation.
